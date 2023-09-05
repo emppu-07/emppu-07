@@ -1,0 +1,131 @@
+.tuotteet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.arvostelut {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: 750px;
+  padding: 1em;
+  border-style:initial;
+  border-width: 3px;
+  border-radius: 20px;
+  color: #fff;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: auto;
+  width: 500px;
+  padding: 1em;
+  border-style: dotted;
+  border-width: 3px;
+  border-radius: 20px;
+  color: #fff;
+}
+  
+h1, p, h2 {
+    color: #fff;
+}
+body {
+  background-image: url(something.gif);
+  text-align: center;
+
+}
+.subdiv {
+    height: 300px;
+    width: 400px;
+    padding: 1em;
+    border-style:dashed;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+.highdiv {
+    height: 350px;
+    width: 200px;
+}
+
+.widediv {
+    height: 100px;
+    width: 250px;
+}
+
+ul.no_bullets {
+    list-style-type: none;
+
+}
+
+a.button {
+  border: #fff;
+  border-style:solid;
+  border-width: 2px;
+  color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #fff;
+
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+
+  a:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  li {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  footer{
+    color: #fff;
+  }
+
+  img {
+    width: 10%;
+  }
+
+  img.hehe {
+    margin-left: 97%;
+    width: 2.5%;
+  }
+
+
+.world{
+  background-image: url(R.gif);
+  background-size: 2000px 2000px;
+  background-repeat:no-repeat;
+}

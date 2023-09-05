@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+header, h1, h2, h3, p, footer, tr, th, caption, a, table, hr {
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px rgb(215, 212, 212)
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+table, th, td {
+    outline:2px 2px #000;
+    border-collapse: collapse;
+  }
+footer {
+    background-color: #000;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: auto;
+}
+.babil {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    width: 500px;
+    max-width: 60%;
+    border: 5px solid #000;
+    border-radius: 10px;
+    
+
+
+
+}
+.babil img {
+    width:  100%;
+    filter: grayscale();
+    opacity: 0.6;
+}

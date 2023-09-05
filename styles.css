@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+body {
+    background-color: #E966A0;
+}
+h1, h2, li {
+    color: #2B2730;
+}
+a {
+    color: #59486e ;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 0);
+    color: black;
+}

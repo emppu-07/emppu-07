@@ -1,0 +1,14 @@
+body {
+    background: repeating-linear-gradient(180deg, #f84a47, #fa91b4, #8354d4, #1285e4, #1ac7de, #37a73c, #e7f639, #fca922, #f64d1a);
+}
+
+h1, h2, h3, p, li, footer, tr, th, caption {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    color: aqua;
+}
+hr {
+    color: black;
+}
