@@ -1,19 +1,75 @@
-.main {
-    display: flex;
-    flex-wrap: nowrap;
+/* The animation code */
+@keyframes redblack {
+    0%   {background-color: red;}
+    50%  {background-color: #000000;}
+    100% {background-color: red;}
+  }
+
+  @keyframes blackred {
+    0%   {color: #000;}
+    50%  {color: red;}
+    100% {color: #000;}
+  }
+
+@keyframes move {
+    0% {transform: translate(0px, 0px);}
+    100% {transform: translate(800%, 0px);}
 }
 
-body {
-    background-color: #E966A0;
-}
-h1, h2, li {
-    color: #2B2730;
-}
-a {
-    color: #59486e ;
+body{
+    background-color: #000;
 }
 
-a:hover {
-    background-color: rgb(255, 255, 0);
-    color: black;
+h1 {
+    animation-name: blackred;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+div {
+    text-align: center;
+
+}
+div.eka {
+        width: 200px;
+        height: 200px;
+        background-image: url(shlagg.png);
+        transition: border 1s;
+        transition: transform 1s;
+        animation-duration: 2s;
+        animation-iteration-count: infinite
+}
+div.toka {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        transition: transform 2s;
+        animation-name: move, redblack;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        border: 2px;
+        border-style: dotted;
+        border-color: white;
+}
+
+  div.eka:hover {
+    border: 2px;
+    border-color: rgb(255, 0, 0);
+    border-style: dashed;
+    transform: skewY(5deg);
+
+}
+
+@keyframes shake {
+    0% {transform: translate(0px, 0px);}
+
+    50% {transform: translate(3px, 3px);}
+    75% {transform: translate(6px, 3px)}
+    100% {transform: translate(-6px, -3px);}
+}
+div.teksti {
+    animation-name: shake;
+    animation-timing-function: linear;
+    animation-duration: 0.075s;
+    animation-iteration-count: infinite
 }
